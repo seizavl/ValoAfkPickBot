@@ -1,6 +1,6 @@
 # 🚽 ValoAFKPickBot
 
-### Valorantの試合中、試合を流さずトイレだけ流す
+### ValorantのINQ中、試合を流さずトイレだけ流す
 
 このプロジェクトは、Discord.pyとValorantの内部APIを活用し、試合を中断することなくトイレ休憩を可能にします。ユーザーが離席する際、Discord.pyを通じてvalclient.pyにリクエストを送信し、ゲーム内での操作を遠隔で行えるようにします。
 
