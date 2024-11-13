@@ -140,7 +140,7 @@ if __name__ == "__main__":
     load_dotenv()
 
     TOKEN       = os.getenv("TOKEN")
-    CHANNEL_ID  = os.getenv("CHANNEL_ID")
+    CHANNEL_ID  = int(os.getenv("CHANNEL_ID"))
     REGION      = os.getenv("REGION") 
     bot = ValoAfkPickBot(token=TOKEN, channel_id=CHANNEL_ID, region=REGION)
 
